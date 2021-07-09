@@ -28,6 +28,7 @@ git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 git clone https://github.com/wxfyes/luci-app-ttnode.git package/luci-app-ttnode
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 
+
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/luci-app-openclash/tools/po2lmo
@@ -60,6 +61,7 @@ git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/l
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
 svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
+git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
 
 #添加smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
