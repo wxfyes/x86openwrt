@@ -17,7 +17,7 @@ sed -i 's#192.168.1.1#192.168.1.254#g' package/base-files/files/bin/config_gener
 #移除不用软件包
 #rm -rf package/lean/luci-app-dockerman
 #rm -rf package/lean/luci-app-wrtbwmon
-#rm -rf package/lean/luci-theme-argon
+rm -rf package/lean/luci-theme-argon
 
 #添加额外软件包
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
@@ -52,7 +52,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/l
 svn co https://github.com/solidus1983/luci-theme-opentomato/trunk/luci/themes/luci-theme-opentomato package/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge package/luci-theme-edge
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-rm -rf ../lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy package/luci-theme-rosy
 svn co https://github.com/rosywrt/luci-theme-purple/trunk/luci-theme-purple package/luci-theme-purple
