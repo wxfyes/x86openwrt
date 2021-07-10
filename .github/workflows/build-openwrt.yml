@@ -172,7 +172,7 @@ jobs:
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
         echo "::set-output name=release_tag::X86-64-$(date +"%Y.%m.%d-%H%M")"
-        body: |
+      body: |
           ## 以下为X86-64的最新固件（每日上午7:30左右自动编译打包最新固件）
           默认IP：192.168.1.254 默认密码： password
           Openwr (注:此版本为王晓峰个人的精简版。)
