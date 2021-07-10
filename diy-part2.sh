@@ -8,7 +8,7 @@
 # Blog: https://p3terx.com
 #============================================================
 # 替换默认IP
-#sed -i 's#192.168.1.1#192.168.1.254#g' package/base-files/files/bin/config_generate
+sed -i 's#192.168.1.1#192.168.1.254#g' package/base-files/files/bin/config_generate
 
 # cpufreq
 #sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci-app-cpufreq/Makefile
